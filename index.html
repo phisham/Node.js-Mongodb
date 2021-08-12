@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Colorchange</title>
+        <style>
+            .edit {
+                text-align: center;
+            }
+        </style>
+        
+   </head>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <body>
+       <h1>Kalpas Node js Internship programme</h1><br><br>
+       <form action="/uploadfile" method="POST" enctype="multipart/form-data" >
+         <h2>Upload your csv files here</h2>
+         <input type="file" name="uploadfile">
+         <input type="submit">
+
+
+       </form>
+       <br><br><br>
+       <form action="/read" method="POST" >
+         <h2>Read your csv files here</h2>
+
+         <input type="submit">
+
+       </form>
+       <br><br><br>
+       <form action="/update" method="POST" >
+         <h2>Update your csv files here</h2>
+       
+         <input type="submit">
+
+
+       </form>
+       <br><br><br>
+       <form action="/delete" method="POST" >
+         <h2>Delete your files here</h2>
+         <input type="submit">
+
+
+       </form>
+
+
+
+
+
+
+
+
+
+    </body>
+
+  
+
+</html>
+
